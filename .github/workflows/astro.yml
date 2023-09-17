@@ -56,7 +56,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
-          cache: "manager=npm"
+          cache: "npm"
           cache-dependency-path: ${{ env.BUILD_PATH }}/package-lock.json
       - name: Setup Pages
         id: pages
